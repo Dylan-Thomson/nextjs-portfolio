@@ -27,7 +27,7 @@ export default function Layout({ children, activePage }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <h1>DylanThomson{activePage && "." + activePage}</h1>
+        <h1><Link href="/">DylanThomson</Link>{activePage && "." + activePage}</h1>
         <Nav activePage={activePage}></Nav>
       </header>
       <main>{children}</main>

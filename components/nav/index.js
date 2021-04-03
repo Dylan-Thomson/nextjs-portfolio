@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./nav.module.css";
 
-export default function Nav({ activePages, activePage }) {
+export default function Nav() {
   return (
     <nav className={styles.navbar}>
       <Link href="/about">
