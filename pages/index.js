@@ -7,6 +7,9 @@ export default function Home() {
       <Head>
         <title>{name} - Home</title>
       </Head>
+      <section>
+        
+      </section>
     </Layout>
   );
 }

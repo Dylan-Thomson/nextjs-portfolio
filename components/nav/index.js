@@ -5,16 +5,16 @@ export default function Nav() {
   return (
     <nav className={styles.navbar}>
       <Link href="/about">
-        <a>.aboutMe()</a>
+        <a className={styles.navlink}>.aboutMe()</a>
       </Link>
       <Link href="/xp">
-        <a>.workExperience()</a>
+        <a className={styles.navlink}>.workExperience()</a>
       </Link>
       <Link href="/projects">
-        <a>.showProjects()</a>
+        <a className={styles.navlink}>.showProjects()</a>
       </Link>
       <Link href="/contact">
-        <a>.contactMe()</a>
+        <a className={styles.navlink}>.contactMe()</a>
       </Link>
     </nav>
   );
