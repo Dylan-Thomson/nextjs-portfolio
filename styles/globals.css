@@ -3,6 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto Mono";
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 a {
