@@ -8,10 +8,13 @@ export default function Home() {
         <title>{name}</title>
       </Head>
       <section>
-        <h2 className={[utilStyles.string, utilStyles.heading2Xl].join(" ")}>"Dylan Thomson"</h2>
-        <p>
+        {/* <h2 className={[utilStyles.string, utilStyles.heading2Xl].join(" ")}>"Dylan Thomson"</h2> */}
+        {/* <h2 className={utilStyles.heading2Xl}>&#123; Dylan Thomson &#125;</h2> */}
+        <h2 className={utilStyles.heading2Xl}>Dylan Thomson</h2>
+        {/* <p>
           &#123; Full stack developer &#125;
-        </p>
+        </p> */}
+        <p>Full Stack Web Developer</p>
         <p className={utilStyles.comment}>
           // Owned by two cats
         </p>
