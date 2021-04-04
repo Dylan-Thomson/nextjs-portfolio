@@ -22,6 +22,7 @@ export default function Home() {
           &#123; Full stack developer &#125;
         </p> */}
         <p>Full Stack Web Developer</p>
+        <p>map(), filter(), reduce() fan</p>
         <p className={utilStyles.comment}>// Owned by two cats</p>
         <p>
           <NavLink path="resume.pdf" text="downloadCV"/>
