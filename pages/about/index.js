@@ -11,9 +11,9 @@ export default function About() {
       </Head>
       <section>
         <p>I am a full stack developer from and based in Northeast Ohio.</p>
-        <p>
+        <p className={utilStyles.lightText}>
           I currently work at an aerospace manufacturer as an applications
-          developer, where I mainly develop data collection and visualization
+          developer, where I develop data collection and visualization
           applications to assist engineering and operations. Heavy use of SQL
           and functional JavaScript.
         </p>

@@ -6,6 +6,9 @@ export default function Experience() {
       <Head>
         <title>{name} - Work</title>
       </Head>
+      <section>
+        <h2>Projects Coming Soon!</h2>
+      </section>
     </Layout>
   );
 }
