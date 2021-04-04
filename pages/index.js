@@ -10,7 +10,7 @@ export default function Home() {
       <section>
         <h2 className={[utilStyles.string, utilStyles.heading2Xl].join(" ")}>"Dylan Thomson"</h2>
         <p>
-          &#123; Creative full stack developer &#125;
+          &#123; Full stack developer &#125;
         </p>
         <p className={utilStyles.comment}>
           // Owned by two cats
