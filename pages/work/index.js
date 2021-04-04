@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <Layout activePage="work">
       <Head>
-        <title>{name} - Experience</title>
+        <title>{name} - Work</title>
       </Head>
     </Layout>
   );

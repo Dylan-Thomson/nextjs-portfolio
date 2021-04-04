@@ -39,6 +39,9 @@ export default function Layout({ children, activePage }) {
         <Nav activePage={activePage}></Nav>
       </header>
       <main>{children}</main>
+      {activePage && (
+        <Link href="/"><a><span className={utilStyles.dylanClass}>return</span>;</a></Link>
+      )}
     </div>
   );
 }

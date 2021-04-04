@@ -68,3 +68,14 @@
 .darkGreen {
   color: rgb(0, 105, 88);
 }
+
+.string {
+  color: rgb(190, 126, 83);
+  font-weight: 500;
+}
+
+.comment {
+  /*  */
+  color: rgb(0, 131, 55);
+  font-weight: 600;
+}

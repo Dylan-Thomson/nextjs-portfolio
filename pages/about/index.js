@@ -7,6 +7,13 @@ export default function About() {
       <Head>
         <title>{name} - About</title>
       </Head>
+      <section>
+        <h2>about()</h2>
+        <menu>Social Media Menu</menu>
+        <p>
+          I am a full stack developer based in Northeast Ohio.
+        </p>
+      </section>
     </Layout>
   );
 }
