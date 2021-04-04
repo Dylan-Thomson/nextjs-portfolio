@@ -11,7 +11,7 @@ export const siteTitle = "Portfolio";
 export default function Layout({ children, activePage }) {
   return (
     <div className={styles.container}>
-      <style global jsx>{`
+      {/* <style global jsx>{`
         html,
         body,
         body > div:first-child,
@@ -19,7 +19,7 @@ export default function Layout({ children, activePage }) {
         div#__next > div {
           height: 100%;
         }
-      `}</style>
+      `}</style> */}
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -36,10 +36,6 @@ export default function Layout({ children, activePage }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <h1 className={utilStyles.headingXl}>
-          <Link href="/">DylanThomson</Link>
-          {activePage && "." + activePage}
-        </h1>
         <Nav activePage={activePage}></Nav>
       </header>
       <main>{children}</main>

@@ -50,3 +50,21 @@
 .lightText {
   color: #666;
 }
+
+.dylanClass {
+  color: #A87EA1;
+}
+.dylanClass:hover {
+  text-decoration: underline;
+}
+
+.lightBlue {
+  color: rgb(122, 168, 255);
+}
+.lightYellow {
+  color: #eeeab2;
+}
+
+.darkGreen {
+  color: rgb(0, 105, 88);
+}

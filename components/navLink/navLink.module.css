@@ -1,0 +1,7 @@
+.navlink {
+    font-weight: bold;
+  }
+  
+  .navlink:hover {
+    background-color: #000;
+  }

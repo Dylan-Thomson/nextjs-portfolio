@@ -3,7 +3,7 @@ import Layout, { name } from "../../components/layout";
 
 export default function Contact() {
   return (
-    <Layout activePage="contactMe()">
+    <Layout activePage="contact">
       <Head>
         <title>{name} - Contact</title>
       </Head>

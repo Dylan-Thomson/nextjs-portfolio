@@ -1,10 +1,15 @@
-.navbar {
+.navBar {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navMenu {
+  width: 30vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100vw;
-}
-
-.navlink {
-  font-weight: bold;
+  flex-wrap: wrap;
 }

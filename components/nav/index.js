@@ -1,21 +1,21 @@
 import Link from "next/link";
+import NavLink from "../navLink";
+import utilStyles from "../../styles/utils.module.css";
 import styles from "./nav.module.css";
-
-export default function Nav() {
+export default function Nav({ activePage }) {
   return (
-    <nav className={styles.navbar}>
-      <Link href="/about">
-        <a className={styles.navlink}>.aboutMe()</a>
-      </Link>
-      <Link href="/xp">
-        <a className={styles.navlink}>.workExperience()</a>
-      </Link>
-      <Link href="/projects">
-        <a className={styles.navlink}>.showProjects()</a>
-      </Link>
-      <Link href="/contact">
-        <a className={styles.navlink}>.contactMe()</a>
-      </Link>
+    <nav className={styles.navBar}>
+      <h1 className={utilStyles.headingXl}>
+        <Link href="/">
+          <a className={utilStyles.dylanClass}>dylan</a>
+        </Link>
+        .<span className={utilStyles.lightYellow}>{activePage || "is"}</span>()
+      </h1>
+      <div className={styles.navMenu}>
+        <NavLink path="about" />
+        <NavLink path="work" />
+        <NavLink path="contact" />
+      </div>
     </nav>
   );
 }
