@@ -38,9 +38,25 @@ export default function Layout({ children, activePage }) {
       <header className={styles.header}>
         <Nav activePage={activePage}></Nav>
       </header>
-      <main>{children}</main>
+      <main className={styles.main}>
+        <Image
+          priority
+          src="/images/profile.jpg"
+          className={utilStyles.borderCircle}
+          height={144}
+          width={144}
+          alt="Dylan Thomson"
+        />
+        {children}
+      </main>
       {activePage && (
-        <Link href="/"><a><span className={utilStyles.dylanClass}>return</span>;</a></Link>
+        <footer className={styles.footer}>
+          <Link href="/">
+            <a>
+              <span className={utilStyles.dylanClass}>return</span>;
+            </a>
+          </Link>
+        </footer>
       )}
     </div>
   );

@@ -1,5 +1,7 @@
 import Head from "next/head";
+// import Image from "next/image";
 import Layout, { name } from "../../components/layout";
+// import utilStyles from "../../styles/utils.module.css";
 
 export default function About() {
   return (
@@ -8,10 +10,8 @@ export default function About() {
         <title>{name} - About</title>
       </Head>
       <section>
-        <menu>Social Media Menu</menu>
-        <p>
-          I am a full stack developer from and based in Northeast Ohio.
-        </p>
+
+        <p>I am a full stack developer from and based in Northeast Ohio.</p>
         <article>
           <h2>Skills</h2>
         </article>

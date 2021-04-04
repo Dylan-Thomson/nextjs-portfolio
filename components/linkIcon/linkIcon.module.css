@@ -1,0 +1,12 @@
+.linkIconPrimary {
+    color: #A87EA1;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkIconPrimary:hover {
+    opacity: .5;
+}
+
+.linkIconPrimary:not(:last-of-type) {
+    margin-right: 0.5em;
+}
